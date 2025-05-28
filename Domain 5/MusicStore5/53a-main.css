@@ -8,23 +8,19 @@ p {
 
 /* The background color is extending across the page,
     so I have commented it out for now. */
-h1,h2,h3,h4,h5,h6 {
-    font-family:Helvetica,Arial,sans-serif;
+h1, h2, h3, h4, h5, h6
+{
+    font-family:Arial, Helvetica, sans-serif;
 }
-
 figcaption {
+    color: navy;
     font-weight: bold;
     background-color: #AAEEFF;
     display:inline;
-    color:#032f0d;
 }
 .sale {
+    font-weight: bold;
     background-color: #AAEEFF;
-    font-style:italic;
-    font-weight:bold;
-}
-.indent {
-    padding:5em;
 }
 #sidenote {
     background-color: #DDDDDD;
@@ -32,20 +28,9 @@ figcaption {
 }
 a {
     text-decoration: none;
-    color:darkgreen;
-}
-a:active {
-    color:#63f60a;
-}
-a:visited {
-    color:#808080;
 }
 a:hover {
-    text-decoration: double;
+    text-decoration: underline;
     font-weight: bold;
     font-family: 'Palatino Linotype','Times New Roman', serif;
-}
-td.vbot {
-    vertical-align:bottom;
-    height:30px;
 }
